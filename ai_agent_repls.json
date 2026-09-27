@@ -1,0 +1,100 @@
+{
+  "nmcli": {
+    "launch_cmd": "nmcli connection edit",
+    "prompt_pattern": "^nmcli>\\s*$",
+    "quit_command": "quit",
+    "ready_timeout": 8,
+    "reply_timeout": 15
+  },
+  "chronyc": {
+    "launch_cmd": "chronyc",
+    "prompt_pattern": "^chronyc>\\s*$",
+    "quit_command": "quit",
+    "ready_timeout": 6,
+    "reply_timeout": 15
+  },
+  "nftables": {
+    "launch_cmd": "nft -i",
+    "prompt_pattern": "^nft>\\s*$",
+    "quit_command": "quit",
+    "ready_timeout": 6,
+    "reply_timeout": 15
+  },
+  "vtysh": {
+    "launch_cmd": "vtysh",
+    "prompt_pattern": "^.*?#\\s*$",
+    "quit_command": "exit",
+    "ready_timeout": 8,
+    "reply_timeout": 15
+  },
+  "scapy": {
+    "launch_cmd": "scapy",
+    "prompt_pattern": "^>>>\\s*$",
+    "quit_command": "exit()",
+    "ready_timeout": 10,
+    "reply_timeout": 20
+  },
+  "nslookup": {
+    "launch_cmd": "nslookup",
+    "prompt_pattern": "^>\\s*$",
+    "quit_command": "exit",
+    "ready_timeout": 6,
+    "reply_timeout": 15
+  },
+  "tftp": {
+    "launch_cmd": "tftp",
+    "prompt_pattern": "^tftp>\\s*$",
+    "quit_command": "quit",
+    "ready_timeout": 6,
+    "reply_timeout": 15
+  },
+  "sftp": {
+    "launch_cmd": "sftp",
+    "prompt_pattern": "^sftp>\\s*$",
+    "quit_command": "bye",
+    "ready_timeout": 8,
+    "reply_timeout": 15
+  },
+  "lftp": {
+    "launch_cmd": "lftp",
+    "prompt_pattern": "^lftp.*?>\\s*$",
+    "quit_command": "exit",
+    "ready_timeout": 6,
+    "reply_timeout": 15
+  },
+  "telnet": {
+    "launch_cmd": "telnet",
+    "prompt_pattern": "^telnet>\\s*$",
+    "quit_command": "quit",
+    "ready_timeout": 6,
+    "reply_timeout": 15
+  },
+  "wpa_cli": {
+    "launch_cmd": "wpa_cli",
+    "prompt_pattern": "^>\\s*$",
+    "quit_command": "quit",
+    "ready_timeout": 6,
+    "reply_timeout": 15
+  },
+  "ipmitool": {
+    "launch_cmd": "ipmitool shell",
+    "prompt_pattern": "^ipmitool>\\s*$",
+    "quit_command": "exit",
+    "ready_timeout": 10,
+    "reply_timeout": 20
+  },
+  "bluetoothctl": {
+    "launch_cmd": "bluetoothctl",
+    "prompt_pattern": "^\\[.*?\\][#>]\\s*$",
+    "quit_command": "exit",
+    "ready_timeout": 8,
+    "reply_timeout": 15
+  },
+  "mailx": {
+    "launch_cmd": "mailx",
+    "prompt_pattern": "^&\\s*$",
+    "quit_command": "q",
+    "ready_timeout": 6,
+    "reply_timeout": 15
+  }
+}
